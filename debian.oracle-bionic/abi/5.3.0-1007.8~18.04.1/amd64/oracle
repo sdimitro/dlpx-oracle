@@ -18916,6 +18916,8 @@ EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_has_xfeatures
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_hotplug_disable
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_hotplug_enable
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_is_hotpluggable
+EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_mitigations_auto_nosmt
+EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_mitigations_off
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_subsys
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpu_up
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	cpuacct_cgrp_subsys_enabled_key
@@ -20657,6 +20659,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x00000000	is_software_node
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	isa_register_driver
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	isa_unregister_driver
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	iterate_mounts
+EXPORT_SYMBOL_GPL vmlinux 0x00000000	itlb_multihit_kvm_mitigation
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	jump_label_rate_limit
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	jump_label_update_timeout
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	kallsyms_lookup_name
@@ -21305,6 +21308,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_p2pmem_publish
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_p2pmem_virt_to_bus
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_pasid_features
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_power_names
+EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_pr3_present
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_prg_resp_pasid_required
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_probe_reset_bus
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	pci_probe_reset_slot
