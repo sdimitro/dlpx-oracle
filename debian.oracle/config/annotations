@@ -14,3 +14,5 @@ CONFIG_SOUNDWIRE                                  policy<{'amd64': 'n'}>
 CONFIG_SOUNDWIRE                                  mark<ENFORCED> note<not needed for cloud kernels>
 CONFIG_SND_SOC_SOF_HDA_COMMON_HDMI_CODEC          policy<{'amd64': 'n'}>
 CONFIG_SND_SOC_SOF_HDA_COMMON_HDMI_CODEC          mark<ENFORCED> note<not needed for cloud kernels>
+CONFIG_SND_SOC_INTEL_SKYLAKE                      policy<ENFORCED> note<not needed for cloud kernels>
+CONFIG_SND_SOC_INTEL_SKYLAKE_HDAUDIO_CODEC        policy<ENFORCED> note<not needed for cloud kernels>
